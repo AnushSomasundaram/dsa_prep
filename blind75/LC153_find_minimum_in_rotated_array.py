@@ -1,28 +1,28 @@
-class Solution(object):
-    def findMin(self, nums):
-        """
-        :type nums: List[int]
-        :rtype: int
-        """
-        #only loosers write this solution
-        #return min(nums)
+# class Solution(object):
+#     def findMin(self, nums):
+#         """
+#         :type nums: List[int]
+#         :rtype: int
+#         """
+#         #only loosers write this solution
+#         #return min(nums)
         
-        l = 0
-        r = len(nums)-1
+#         l = 0
+#         r = len(nums)-1
 
-        while l<r:
+#         while l<r:
             
-            mid = (l+r)//2
+#             mid = (l+r)//2
             
-            if nums[mid] > nums[r]:
+#             if nums[mid] > nums[r]:
 
-                l = mid+1
+#                 l = mid+1
             
-            else:
+#             else:
 
-                r = mid
+#                 r = mid
 
             
         
-        return nums[l]
+#         return nums[l]
 

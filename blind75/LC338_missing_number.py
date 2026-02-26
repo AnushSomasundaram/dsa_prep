@@ -21,12 +21,12 @@ class Solution(object):
             
         # return nums[-1] + 1
 
-        sum = len(nums)
+        # sum = len(nums)
         
-        for i in range(len(nums)):
+        # for i in range(len(nums)):
 
-            sum = sum + (i - nums[i])
+        #     sum = sum + (i - nums[i])
             
 
 
-        return sum
+        # return sum
